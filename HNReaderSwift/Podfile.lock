@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.0.1)
+  - DateTools (1.7.0)
+  - Nimble (5.1.1)
+  - Quick (0.10.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DateTools
+  - Nimble
+  - Quick
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+
+PODFILE CHECKSUM: 76dd614616d1d5b242c0f5473c910d2dd895b057
+
+COCOAPODS: 1.2.0.beta.1
