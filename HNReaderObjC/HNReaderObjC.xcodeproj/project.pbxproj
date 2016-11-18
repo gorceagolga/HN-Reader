@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25260298BD4623D01BB8CD57 /* Pods_HNReaderObjCTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD12FF592E41B936EA1C332B /* Pods_HNReaderObjCTests.framework */; };
+		C6B3DF2261E05EB1545D33AB /* libPods-HNReaderObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD7880F76016711F11164B9 /* libPods-HNReaderObjC.a */; };
+		F804893C1DDE4A0F00A46F94 /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198FC1DDC1BDE00140949 /* Story.m */; };
+		F804893F1DDE4FB100A46F94 /* FetcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F804893E1DDE4FB100A46F94 /* FetcherTests.m */; };
+		F80489411DDE67E200A46F94 /* ModelControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F80489401DDE67E200A46F94 /* ModelControllerTest.m */; };
+		F84198C81DDC1B9900140949 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198C71DDC1B9900140949 /* main.m */; };
+		F84198CB1DDC1B9900140949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198CA1DDC1B9900140949 /* AppDelegate.m */; };
+		F84198D31DDC1B9900140949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84198D21DDC1B9900140949 /* Assets.xcassets */; };
+		F84198D61DDC1B9900140949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84198D41DDC1B9900140949 /* LaunchScreen.storyboard */; };
+		F84198E11DDC1B9900140949 /* StoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198E01DDC1B9900140949 /* StoryTest.m */; };
+		F84198ED1DDC1BCA00140949 /* AFHTTPSessionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198EC1DDC1BCA00140949 /* AFHTTPSessionOperation.m */; };
+		F84198F01DDC1BD300140949 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198EF1DDC1BD300140949 /* HTTPClient.m */; };
+		F84199031DDC1BDE00140949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F84198F11DDC1BDE00140949 /* Main.storyboard */; };
+		F84199041DDC1BDE00140949 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198F31DDC1BDE00140949 /* ModelController.m */; };
+		F84199051DDC1BDE00140949 /* NSArray+StorySort.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198F51DDC1BDE00140949 /* NSArray+StorySort.m */; };
+		F84199061DDC1BDE00140949 /* StoriesDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198F81DDC1BDE00140949 /* StoriesDataFetcher.m */; };
+		F84199071DDC1BDE00140949 /* StoriesFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198FA1DDC1BDE00140949 /* StoriesFetchRequest.m */; };
+		F84199091DDC1BDE00140949 /* StoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F84198FE1DDC1BDE00140949 /* StoryTableViewCell.m */; };
+		F841990A1DDC1BDE00140949 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84199001DDC1BDE00140949 /* ViewController.m */; };
+		F841990B1DDC1BDE00140949 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F84199021DDC1BDE00140949 /* WebViewController.m */; };
+		F8895E241DDE04BD0050567C /* UIScrollView+ScrollToBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = F8895E231DDE04BD0050567C /* UIScrollView+ScrollToBottom.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F84198DD1DDC1B9900140949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F84198BB1DDC1B9900140949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F84198C21DDC1B9900140949;
+			remoteInfo = HNReaderObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0E609F3AA9BAEA236D51C0 /* Pods-HNReaderObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNReaderObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNReaderObjC/Pods-HNReaderObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		9FD7880F76016711F11164B9 /* libPods-HNReaderObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HNReaderObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD12FF592E41B936EA1C332B /* Pods_HNReaderObjCTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HNReaderObjCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EA6F612BAAA34D3953AF6B /* Pods-HNReaderObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNReaderObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNReaderObjCTests/Pods-HNReaderObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA45FDCBE4407E3AACA0294D /* Pods-HNReaderObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNReaderObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HNReaderObjCTests/Pods-HNReaderObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E93163B0B0162613D52E381C /* Pods-HNReaderObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HNReaderObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-HNReaderObjC/Pods-HNReaderObjC.release.xcconfig"; sourceTree = "<group>"; };
+		F804893E1DDE4FB100A46F94 /* FetcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetcherTests.m; sourceTree = "<group>"; };
+		F80489401DDE67E200A46F94 /* ModelControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelControllerTest.m; sourceTree = "<group>"; };
+		F80489421DDE6E8400A46F94 /* ModelController_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController_Private.h; sourceTree = "<group>"; };
+		F84198C31DDC1B9900140949 /* HNReaderObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HNReaderObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84198C71DDC1B9900140949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F84198C91DDC1B9900140949 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F84198CA1DDC1B9900140949 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F84198D21DDC1B9900140949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F84198D51DDC1B9900140949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F84198D71DDC1B9900140949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84198DC1DDC1B9900140949 /* HNReaderObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HNReaderObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F84198E01DDC1B9900140949 /* StoryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryTest.m; sourceTree = "<group>"; };
+		F84198E21DDC1B9900140949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F84198EB1DDC1BCA00140949 /* AFHTTPSessionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionOperation.h; sourceTree = "<group>"; };
+		F84198EC1DDC1BCA00140949 /* AFHTTPSessionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionOperation.m; sourceTree = "<group>"; };
+		F84198EE1DDC1BD300140949 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
+		F84198EF1DDC1BD300140949 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		F84198F11DDC1BDE00140949 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F84198F21DDC1BDE00140949 /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		F84198F31DDC1BDE00140949 /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		F84198F41DDC1BDE00140949 /* NSArray+StorySort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+StorySort.h"; sourceTree = "<group>"; };
+		F84198F51DDC1BDE00140949 /* NSArray+StorySort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+StorySort.m"; sourceTree = "<group>"; };
+		F84198F61DDC1BDE00140949 /* ReloadDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReloadDataProtocol.h; sourceTree = "<group>"; };
+		F84198F71DDC1BDE00140949 /* StoriesDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesDataFetcher.h; sourceTree = "<group>"; };
+		F84198F81DDC1BDE00140949 /* StoriesDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesDataFetcher.m; sourceTree = "<group>"; };
+		F84198F91DDC1BDE00140949 /* StoriesFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesFetchRequest.h; sourceTree = "<group>"; };
+		F84198FA1DDC1BDE00140949 /* StoriesFetchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesFetchRequest.m; sourceTree = "<group>"; };
+		F84198FB1DDC1BDE00140949 /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		F84198FC1DDC1BDE00140949 /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		F84198FD1DDC1BDE00140949 /* StoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewCell.h; sourceTree = "<group>"; };
+		F84198FE1DDC1BDE00140949 /* StoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewCell.m; sourceTree = "<group>"; };
+		F84198FF1DDC1BDE00140949 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F84199001DDC1BDE00140949 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F84199011DDC1BDE00140949 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F84199021DDC1BDE00140949 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F8895E221DDE04BD0050567C /* UIScrollView+ScrollToBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ScrollToBottom.h"; sourceTree = "<group>"; };
+		F8895E231DDE04BD0050567C /* UIScrollView+ScrollToBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ScrollToBottom.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F84198C01DDC1B9900140949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B3DF2261E05EB1545D33AB /* libPods-HNReaderObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84198D91DDC1B9900140949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25260298BD4623D01BB8CD57 /* Pods_HNReaderObjCTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025DD488812846764F95A802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E609F3AA9BAEA236D51C0 /* Pods-HNReaderObjC.debug.xcconfig */,
+				E93163B0B0162613D52E381C /* Pods-HNReaderObjC.release.xcconfig */,
+				CA45FDCBE4407E3AACA0294D /* Pods-HNReaderObjCTests.debug.xcconfig */,
+				C4EA6F612BAAA34D3953AF6B /* Pods-HNReaderObjCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		07461367147B3F9FBCD3431E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD7880F76016711F11164B9 /* libPods-HNReaderObjC.a */,
+				AD12FF592E41B936EA1C332B /* Pods_HNReaderObjCTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F80489431DDE7F2600A46F94 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F84198C91DDC1B9900140949 /* AppDelegate.h */,
+				F84198CA1DDC1B9900140949 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F80489441DDE7F3600A46F94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F84198F11DDC1BDE00140949 /* Main.storyboard */,
+				F84198D41DDC1B9900140949 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F80489451DDE7F5700A46F94 /* Reload data protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F84198F61DDC1BDE00140949 /* ReloadDataProtocol.h */,
+			);
+			name = "Reload data protocol";
+			sourceTree = "<group>";
+		};
+		F84198BA1DDC1B9900140949 = {
+			isa = PBXGroup;
+			children = (
+				F84198C51DDC1B9900140949 /* HNReaderObjC */,
+				F84198DF1DDC1B9900140949 /* HNReaderObjCTests */,
+				F84198C41DDC1B9900140949 /* Products */,
+				025DD488812846764F95A802 /* Pods */,
+				07461367147B3F9FBCD3431E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F84198C41DDC1B9900140949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F84198C31DDC1B9900140949 /* HNReaderObjC.app */,
+				F84198DC1DDC1B9900140949 /* HNReaderObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F84198C51DDC1B9900140949 /* HNReaderObjC */ = {
+			isa = PBXGroup;
+			children = (
+				F88957581DDDB0060050567C /* Categories */,
+				F88957571DDDAFF30050567C /* Networking */,
+				F88957591DDDB1B70050567C /* Fetching data */,
+				F80489451DDE7F5700A46F94 /* Reload data protocol */,
+				F889575E1DDDB2180050567C /* ModelController */,
+				F889575A1DDDB1CA0050567C /* Model */,
+				F889575B1DDDB1DB0050567C /* ViewController */,
+				F889575D1DDDB2060050567C /* Web View Controller */,
+				F80489431DDE7F2600A46F94 /* AppDelegate */,
+				F80489441DDE7F3600A46F94 /* Storyboards */,
+				F84198C61DDC1B9900140949 /* Supporting Files */,
+			);
+			path = HNReaderObjC;
+			sourceTree = "<group>";
+		};
+		F84198C61DDC1B9900140949 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F84198D71DDC1B9900140949 /* Info.plist */,
+				F84198D21DDC1B9900140949 /* Assets.xcassets */,
+				F84198C71DDC1B9900140949 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F84198DF1DDC1B9900140949 /* HNReaderObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F84198E01DDC1B9900140949 /* StoryTest.m */,
+				F804893E1DDE4FB100A46F94 /* FetcherTests.m */,
+				F80489401DDE67E200A46F94 /* ModelControllerTest.m */,
+				F84198E21DDC1B9900140949 /* Info.plist */,
+			);
+			path = HNReaderObjCTests;
+			sourceTree = "<group>";
+		};
+		F88957571DDDAFF30050567C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F84198EB1DDC1BCA00140949 /* AFHTTPSessionOperation.h */,
+				F84198EC1DDC1BCA00140949 /* AFHTTPSessionOperation.m */,
+				F84198EE1DDC1BD300140949 /* HTTPClient.h */,
+				F84198EF1DDC1BD300140949 /* HTTPClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		F88957581DDDB0060050567C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F84198F41DDC1BDE00140949 /* NSArray+StorySort.h */,
+				F84198F51DDC1BDE00140949 /* NSArray+StorySort.m */,
+				F8895E221DDE04BD0050567C /* UIScrollView+ScrollToBottom.h */,
+				F8895E231DDE04BD0050567C /* UIScrollView+ScrollToBottom.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F88957591DDDB1B70050567C /* Fetching data */ = {
+			isa = PBXGroup;
+			children = (
+				F84198F71DDC1BDE00140949 /* StoriesDataFetcher.h */,
+				F84198F81DDC1BDE00140949 /* StoriesDataFetcher.m */,
+				F84198F91DDC1BDE00140949 /* StoriesFetchRequest.h */,
+				F84198FA1DDC1BDE00140949 /* StoriesFetchRequest.m */,
+			);
+			name = "Fetching data";
+			sourceTree = "<group>";
+		};
+		F889575A1DDDB1CA0050567C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F84198FB1DDC1BDE00140949 /* Story.h */,
+				F84198FC1DDC1BDE00140949 /* Story.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F889575B1DDDB1DB0050567C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F84198FF1DDC1BDE00140949 /* ViewController.h */,
+				F84199001DDC1BDE00140949 /* ViewController.m */,
+				F889575C1DDDB1EA0050567C /* Story Cell */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F889575C1DDDB1EA0050567C /* Story Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F84198FD1DDC1BDE00140949 /* StoryTableViewCell.h */,
+				F84198FE1DDC1BDE00140949 /* StoryTableViewCell.m */,
+			);
+			name = "Story Cell";
+			sourceTree = "<group>";
+		};
+		F889575D1DDDB2060050567C /* Web View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F84199011DDC1BDE00140949 /* WebViewController.h */,
+				F84199021DDC1BDE00140949 /* WebViewController.m */,
+			);
+			name = "Web View Controller";
+			sourceTree = "<group>";
+		};
+		F889575E1DDDB2180050567C /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				F80489421DDE6E8400A46F94 /* ModelController_Private.h */,
+				F84198F21DDC1BDE00140949 /* ModelController.h */,
+				F84198F31DDC1BDE00140949 /* ModelController.m */,
+			);
+			name = ModelController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F84198C21DDC1B9900140949 /* HNReaderObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84198E51DDC1B9900140949 /* Build configuration list for PBXNativeTarget "HNReaderObjC" */;
+			buildPhases = (
+				DA0E7935BAF2C9D8B33C3BFF /* [CP] Check Pods Manifest.lock */,
+				F84198BF1DDC1B9900140949 /* Sources */,
+				F84198C01DDC1B9900140949 /* Frameworks */,
+				F84198C11DDC1B9900140949 /* Resources */,
+				43132B4C782E14A8687EFDC2 /* [CP] Embed Pods Frameworks */,
+				6B9B9F9DD2DC49ED9DCBB3F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HNReaderObjC;
+			productName = HNReaderObjC;
+			productReference = F84198C31DDC1B9900140949 /* HNReaderObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84198DB1DDC1B9900140949 /* HNReaderObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F84198E81DDC1B9900140949 /* Build configuration list for PBXNativeTarget "HNReaderObjCTests" */;
+			buildPhases = (
+				58DD1F2EF2D06280C4AD7BA0 /* [CP] Check Pods Manifest.lock */,
+				F84198D81DDC1B9900140949 /* Sources */,
+				F84198D91DDC1B9900140949 /* Frameworks */,
+				F84198DA1DDC1B9900140949 /* Resources */,
+				CBB8DBA6AFEA518FC47D4E49 /* [CP] Embed Pods Frameworks */,
+				046F82CE53F5215CA59184CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F84198DE1DDC1B9900140949 /* PBXTargetDependency */,
+			);
+			name = HNReaderObjCTests;
+			productName = HNReaderObjCTests;
+			productReference = F84198DC1DDC1B9900140949 /* HNReaderObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F84198BB1DDC1B9900140949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Gorceag Olga";
+				TargetAttributes = {
+					F84198C21DDC1B9900140949 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8U7Z45H765;
+						ProvisioningStyle = Automatic;
+					};
+					F84198DB1DDC1B9900140949 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F84198C21DDC1B9900140949;
+					};
+				};
+			};
+			buildConfigurationList = F84198BE1DDC1B9900140949 /* Build configuration list for PBXProject "HNReaderObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F84198BA1DDC1B9900140949;
+			productRefGroup = F84198C41DDC1B9900140949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F84198C21DDC1B9900140949 /* HNReaderObjC */,
+				F84198DB1DDC1B9900140949 /* HNReaderObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F84198C11DDC1B9900140949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84199031DDC1BDE00140949 /* Main.storyboard in Resources */,
+				F84198D61DDC1B9900140949 /* LaunchScreen.storyboard in Resources */,
+				F84198D31DDC1B9900140949 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84198DA1DDC1B9900140949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		046F82CE53F5215CA59184CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNReaderObjCTests/Pods-HNReaderObjCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43132B4C782E14A8687EFDC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNReaderObjC/Pods-HNReaderObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58DD1F2EF2D06280C4AD7BA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B9B9F9DD2DC49ED9DCBB3F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNReaderObjC/Pods-HNReaderObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBB8DBA6AFEA518FC47D4E49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HNReaderObjCTests/Pods-HNReaderObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0E7935BAF2C9D8B33C3BFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F84198BF1DDC1B9900140949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84198CB1DDC1B9900140949 /* AppDelegate.m in Sources */,
+				F8895E241DDE04BD0050567C /* UIScrollView+ScrollToBottom.m in Sources */,
+				F84198C81DDC1B9900140949 /* main.m in Sources */,
+				F84199041DDC1BDE00140949 /* ModelController.m in Sources */,
+				F804893C1DDE4A0F00A46F94 /* Story.m in Sources */,
+				F84198F01DDC1BD300140949 /* HTTPClient.m in Sources */,
+				F841990A1DDC1BDE00140949 /* ViewController.m in Sources */,
+				F84199071DDC1BDE00140949 /* StoriesFetchRequest.m in Sources */,
+				F841990B1DDC1BDE00140949 /* WebViewController.m in Sources */,
+				F84199051DDC1BDE00140949 /* NSArray+StorySort.m in Sources */,
+				F84198ED1DDC1BCA00140949 /* AFHTTPSessionOperation.m in Sources */,
+				F84199061DDC1BDE00140949 /* StoriesDataFetcher.m in Sources */,
+				F84199091DDC1BDE00140949 /* StoryTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84198D81DDC1B9900140949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80489411DDE67E200A46F94 /* ModelControllerTest.m in Sources */,
+				F84198E11DDC1B9900140949 /* StoryTest.m in Sources */,
+				F804893F1DDE4FB100A46F94 /* FetcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F84198DE1DDC1B9900140949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F84198C21DDC1B9900140949 /* HNReaderObjC */;
+			targetProxy = F84198DD1DDC1B9900140949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F84198D41DDC1B9900140949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F84198D51DDC1B9900140949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F84198E31DDC1B9900140949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F84198E41DDC1B9900140949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F84198E61DDC1B9900140949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0E609F3AA9BAEA236D51C0 /* Pods-HNReaderObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U7Z45H765;
+				INFOPLIST_FILE = HNReaderObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gorceag.HNReaderObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F84198E71DDC1B9900140949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93163B0B0162613D52E381C /* Pods-HNReaderObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U7Z45H765;
+				INFOPLIST_FILE = HNReaderObjC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gorceag.HNReaderObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F84198E91DDC1B9900140949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA45FDCBE4407E3AACA0294D /* Pods-HNReaderObjCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HNReaderObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gorceag.HNReaderObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNReaderObjC.app/HNReaderObjC";
+			};
+			name = Debug;
+		};
+		F84198EA1DDC1B9900140949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EA6F612BAAA34D3953AF6B /* Pods-HNReaderObjCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HNReaderObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gorceag.HNReaderObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HNReaderObjC.app/HNReaderObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F84198BE1DDC1B9900140949 /* Build configuration list for PBXProject "HNReaderObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84198E31DDC1B9900140949 /* Debug */,
+				F84198E41DDC1B9900140949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84198E51DDC1B9900140949 /* Build configuration list for PBXNativeTarget "HNReaderObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84198E61DDC1B9900140949 /* Debug */,
+				F84198E71DDC1B9900140949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84198E81DDC1B9900140949 /* Build configuration list for PBXNativeTarget "HNReaderObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F84198E91DDC1B9900140949 /* Debug */,
+				F84198EA1DDC1B9900140949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F84198BB1DDC1B9900140949 /* Project object */;
+}
